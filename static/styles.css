@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #4b0062;
+    color: white;
+    padding: 1rem 0;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    background: url('static/images/banner.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(235, 134, 255);
+}
+
+h2 {
+    text-align: center;
+    color: #350064;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3e004e;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f8b0ff;
+}
